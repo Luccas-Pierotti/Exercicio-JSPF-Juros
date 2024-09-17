@@ -1,0 +1,39 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<head>
+<style>
+        body {
+            margin: 0;
+            padding-top: 60px; /* Espaço para o header fixo */
+        }
+        header {
+            background-color: #007bff;
+            color: #ffffff;
+            padding: 15px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            text-align: center;
+        }
+        header nav {
+            margin: 0;
+            padding: 0;
+        }
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 0 15px;
+            font-size: 16px;
+        }
+        header a:hover {
+            text-decoration: underline;
+        }
+    </style></head>
+<header>
+    <nav>
+        <a href="index.jsp">Index</a>
+        <a href="juros-compostos.jsp">Juros Compostos</a>
+        <a href="juros-simples.jsp">Juros Simples</a>
+    </nav>
+</header>
